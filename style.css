@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	text-align: center;
+	background: url(sativa.png);
+}
+
+ul {
+	list-style: none;	
+	margin: 50px;	
+}
+
+.buttons li {
+	background: url(sprite.png) left bottom no-repeat;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	cursor: pointer;
+}
+
+.buttons .button1 {
+	background-position: -240px 0;
+}
+
+.buttons .button1:hover {
+	background-position: -240px -60px;
+}
+
+
+.buttons .button2 {
+	background-position: -300px 0;
+}
+
+.buttons .button2:hover {
+	background-position: -300px -60px;
+}
+
+.buttons .button3 {
+	background-position: -480px 0;
+}
+
+.buttons .button3:hover {
+	background-position: -480px -60px;
+}
